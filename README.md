@@ -41,6 +41,9 @@ python netcat.py -t 192.168.1.12 -p 5555
 
 # Echo text to a remote server port
 echo 'ABC' | python netcat.py -t 192.168.1.12 -p 135
+
+# Send requests by the old fashioned way
+echo -ne "GET / HTTP/1.1\r\nHost: www.google.com\r\n\r\n" | python netcat.py -t www.google.com -p 80
 ```
 
 # Disclaimer
