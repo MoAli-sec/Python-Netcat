@@ -1,5 +1,5 @@
 # NetCat Tool in Python
-This Python script is a simple implementation of the NetCat tool that allows communication over TCP/IP networks. It was inspired by the book "Black Hat Python" by Justin Seitz.
+This Python script is a simple implementation of the NetCat tool that allows communication over TCP/IP networks. It was inspired by the book "Black Hat Python" by Justin Seitz.\n
 This Python script is a Netcat-like tool that enables users to execute commands, upload files, and establish a command shell on a remote server through a socket connection. The script uses the argparse module to handle command-line arguments and threading to manage multiple client connections.
 
 # Requirements
